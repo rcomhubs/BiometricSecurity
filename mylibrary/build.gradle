@@ -48,7 +48,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.rcomhubs' //your git id
                 artifactId = 'BiometricSecurity' //your-repository
-                version = '1.0.0' // As same as the Tag
+                version = '1.0.1' // As same as the Tag
             }
         }
     }
