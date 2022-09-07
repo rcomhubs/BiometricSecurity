@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity(), BioMetricClickListener {
 //                Toast.makeText(this, "Auth succeee", Toast.LENGTH_SHORT).show()
 //            }
             BIOMETRIC_ERROR_NO_BIOMETRICS -> {
-//                Toast.makeText(this,
-//                    "The user does not have any biometrics enrolled",
-//                    Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,
+                    "The user does not have any biometrics enrolled",
+                    Toast.LENGTH_SHORT).show()
             }
             AUTH_NOT_AVAILABLE -> {
 //                Toast.makeText(this, "Auth not available", Toast.LENGTH_SHORT).show()
