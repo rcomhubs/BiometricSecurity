@@ -90,7 +90,7 @@ class BioMetricClass(context: Context, appName: String, subTitle: String, setDes
 
         } else {
             RESULT = AUTH_NOT_AVAILABLE
-            Toast.makeText(context, "$reason ", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(context, "$reason ", Toast.LENGTH_SHORT).show()
         }
         Log.e("isAvailable", "$isAvailable")
         return RESULT
